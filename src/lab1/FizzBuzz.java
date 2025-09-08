@@ -12,12 +12,12 @@ class FizzBuzz {
         int i = 1;
         while (i < 100)
         {
-            helper(i);
+            doFizzBuzz(i);
             i++;
         }
     }
 
-    public static void helper(int i){
+    public static void doFizzBuzz(int i){
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
